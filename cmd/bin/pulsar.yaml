@@ -1,0 +1,14 @@
+type: pulsar
+adapter:
+    pulsarUrl: pulsar://127.0.0.1:6650
+    token: 
+    nack: 60
+admin:
+    cluster:
+        tenant: public
+        namespace: cmq
+    adminUrl: http://127.0.0.1:8080
+meta:
+    redis:
+        address: 127.0.0.1:6379
+    interval: 30

@@ -1,0 +1,16 @@
+type: tdmq
+adapter:
+    pulsarUrl: tdmq url
+    token: token
+    nack: 60
+admin:
+    cluster:
+        tenant: tenant
+        namespace: namespace
+    adminUrl: tdmq.tencentcloudapi.com
+    tdmqSecretId: id
+    tdmqSecretKey: key
+    tdmqRegion: ap-guangzhou
+meta:
+    redis:
+        address: 127.0.0.1:6379
